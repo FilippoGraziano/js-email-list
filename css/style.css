@@ -1,0 +1,11 @@
+button {
+    cursor: pointer;
+}
+
+#remove-email-list {
+    display: none;
+}
+
+#remove-email-list.open {
+    display: inline-block;
+}
