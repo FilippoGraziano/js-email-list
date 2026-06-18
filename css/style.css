@@ -1,5 +1,34 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.open {
+    row-gap: 20px;
+}
+
 button {
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 10px;
     cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 #remove-email-list {
@@ -8,4 +37,5 @@ button {
 
 #remove-email-list.open {
     display: inline-block;
+    margin-left: 10px;
 }
